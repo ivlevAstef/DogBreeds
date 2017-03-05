@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1147C1821E6C5FCF00C11339 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1147C1751E6C5FCF00C11339 /* main.m */; };
+		1147C1841E6C5FCF00C11339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1147C1781E6C5FCF00C11339 /* Assets.xcassets */; };
+		1147C1851E6C5FCF00C11339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1147C1791E6C5FCF00C11339 /* Main.storyboard */; };
+		1147C1861E6C5FCF00C11339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1147C17B1E6C5FCF00C11339 /* LaunchScreen.storyboard */; };
+		1147C1871E6C5FCF00C11339 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1147C17F1E6C5FCF00C11339 /* AppDelegate.m */; };
+		119538BF1E6C6A13009B23FC /* BreedsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 119538BE1E6C6A12009B23FC /* BreedsTableViewController.m */; };
+		119538C21E6C6A96009B23FC /* BreedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 119538C11E6C6A96009B23FC /* BreedViewController.m */; };
+		119538C51E6C6AD3009B23FC /* BreedViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 119538C41E6C6AD3009B23FC /* BreedViewCell.m */; };
+		119538C91E6C6BC6009B23FC /* Breed.m in Sources */ = {isa = PBXBuildFile; fileRef = 119538C81E6C6BC6009B23FC /* Breed.m */; };
+		119538CE1E6C6F2C009B23FC /* DogCoatTypeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 119538CD1E6C6F2C009B23FC /* DogCoatTypeConverter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1147C15A1E6C5F8D00C11339 /* DogBreeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogBreeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1147C1751E6C5FCF00C11339 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1147C1761E6C5FCF00C11339 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1147C1781E6C5FCF00C11339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1147C17A1E6C5FCF00C11339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1147C17C1E6C5FCF00C11339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1147C17E1E6C5FCF00C11339 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1147C17F1E6C5FCF00C11339 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		119538BD1E6C6A12009B23FC /* BreedsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreedsTableViewController.h; sourceTree = "<group>"; };
+		119538BE1E6C6A12009B23FC /* BreedsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreedsTableViewController.m; sourceTree = "<group>"; };
+		119538C01E6C6A96009B23FC /* BreedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreedViewController.h; sourceTree = "<group>"; };
+		119538C11E6C6A96009B23FC /* BreedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreedViewController.m; sourceTree = "<group>"; };
+		119538C31E6C6AD3009B23FC /* BreedViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreedViewCell.h; sourceTree = "<group>"; };
+		119538C41E6C6AD3009B23FC /* BreedViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreedViewCell.m; sourceTree = "<group>"; };
+		119538C71E6C6BC6009B23FC /* Breed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Breed.h; sourceTree = "<group>"; };
+		119538C81E6C6BC6009B23FC /* Breed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Breed.m; sourceTree = "<group>"; };
+		119538CA1E6C6D24009B23FC /* DogCoatType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogCoatType.h; sourceTree = "<group>"; };
+		119538CC1E6C6F2C009B23FC /* DogCoatTypeConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogCoatTypeConverter.h; sourceTree = "<group>"; };
+		119538CD1E6C6F2C009B23FC /* DogCoatTypeConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogCoatTypeConverter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1147C1571E6C5F8C00C11339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1147C1511E6C5F8C00C11339 = {
+			isa = PBXGroup;
+			children = (
+				1147C1741E6C5FCF00C11339 /* DogBreeds */,
+				1147C1771E6C5FCF00C11339 /* Resources */,
+				1147C17D1E6C5FCF00C11339 /* Sources */,
+				1147C15B1E6C5F8D00C11339 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1147C15B1E6C5F8D00C11339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1147C15A1E6C5F8D00C11339 /* DogBreeds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1147C1741E6C5FCF00C11339 /* DogBreeds */ = {
+			isa = PBXGroup;
+			children = (
+				1147C1751E6C5FCF00C11339 /* main.m */,
+				1147C1761E6C5FCF00C11339 /* Info.plist */,
+			);
+			path = DogBreeds;
+			sourceTree = "<group>";
+		};
+		1147C1771E6C5FCF00C11339 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1147C1781E6C5FCF00C11339 /* Assets.xcassets */,
+				1147C1791E6C5FCF00C11339 /* Main.storyboard */,
+				1147C17B1E6C5FCF00C11339 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1147C17D1E6C5FCF00C11339 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				119538CB1E6C6F1A009B23FC /* Utils */,
+				119538C61E6C6BA7009B23FC /* Models */,
+				119538BC1E6C6A12009B23FC /* Views */,
+				1147C17E1E6C5FCF00C11339 /* AppDelegate.h */,
+				1147C17F1E6C5FCF00C11339 /* AppDelegate.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		119538BC1E6C6A12009B23FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				119538BD1E6C6A12009B23FC /* BreedsTableViewController.h */,
+				119538BE1E6C6A12009B23FC /* BreedsTableViewController.m */,
+				119538C01E6C6A96009B23FC /* BreedViewController.h */,
+				119538C11E6C6A96009B23FC /* BreedViewController.m */,
+				119538C31E6C6AD3009B23FC /* BreedViewCell.h */,
+				119538C41E6C6AD3009B23FC /* BreedViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		119538C61E6C6BA7009B23FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				119538C71E6C6BC6009B23FC /* Breed.h */,
+				119538C81E6C6BC6009B23FC /* Breed.m */,
+				119538CA1E6C6D24009B23FC /* DogCoatType.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		119538CB1E6C6F1A009B23FC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				119538CC1E6C6F2C009B23FC /* DogCoatTypeConverter.h */,
+				119538CD1E6C6F2C009B23FC /* DogCoatTypeConverter.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1147C1591E6C5F8C00C11339 /* DogBreeds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1147C1711E6C5F8D00C11339 /* Build configuration list for PBXNativeTarget "DogBreeds" */;
+			buildPhases = (
+				1147C1561E6C5F8C00C11339 /* Sources */,
+				1147C1571E6C5F8C00C11339 /* Frameworks */,
+				1147C1581E6C5F8C00C11339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogBreeds;
+			productName = DogBreeds;
+			productReference = 1147C15A1E6C5F8D00C11339 /* DogBreeds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1147C1521E6C5F8C00C11339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SIA;
+				TargetAttributes = {
+					1147C1591E6C5F8C00C11339 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1147C1551E6C5F8C00C11339 /* Build configuration list for PBXProject "DogBreeds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1147C1511E6C5F8C00C11339;
+			productRefGroup = 1147C15B1E6C5F8D00C11339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1147C1591E6C5F8C00C11339 /* DogBreeds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1147C1581E6C5F8C00C11339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1147C1851E6C5FCF00C11339 /* Main.storyboard in Resources */,
+				1147C1861E6C5FCF00C11339 /* LaunchScreen.storyboard in Resources */,
+				1147C1841E6C5FCF00C11339 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1147C1561E6C5F8C00C11339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119538C91E6C6BC6009B23FC /* Breed.m in Sources */,
+				119538BF1E6C6A13009B23FC /* BreedsTableViewController.m in Sources */,
+				1147C1871E6C5FCF00C11339 /* AppDelegate.m in Sources */,
+				1147C1821E6C5FCF00C11339 /* main.m in Sources */,
+				119538C21E6C6A96009B23FC /* BreedViewController.m in Sources */,
+				119538CE1E6C6F2C009B23FC /* DogCoatTypeConverter.m in Sources */,
+				119538C51E6C6AD3009B23FC /* BreedViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1147C1791E6C5FCF00C11339 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1147C17A1E6C5FCF00C11339 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1147C17B1E6C5FCF00C11339 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1147C17C1E6C5FCF00C11339 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1147C16F1E6C5F8D00C11339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1147C1701E6C5F8D00C11339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1147C1721E6C5F8D00C11339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DogBreeds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sia.DogBreeds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1147C1731E6C5F8D00C11339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DogBreeds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sia.DogBreeds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1147C1551E6C5F8C00C11339 /* Build configuration list for PBXProject "DogBreeds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1147C16F1E6C5F8D00C11339 /* Debug */,
+				1147C1701E6C5F8D00C11339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1147C1711E6C5F8D00C11339 /* Build configuration list for PBXNativeTarget "DogBreeds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1147C1721E6C5F8D00C11339 /* Debug */,
+				1147C1731E6C5F8D00C11339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1147C1521E6C5F8C00C11339 /* Project object */;
+}
