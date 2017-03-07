@@ -13,17 +13,13 @@
 + (NSString*)toString:(DogCoatType)type {
   switch (type) {
     case DogCoat_Hairless:
-      return @"hairless";
+      return @"безшерстная";
     case DogCoat_Short:
-      return @"short";
-    case DogCoat_Wire:
-      return @"wire";
+      return @"короткошерстная";
     case DogCoat_Curly:
-      return @"curly";
-    case DogCoat_CurlyWire:
-      return @"curly-wire";
+      return @"волнистая";
     case DogCoat_Long:
-      return @"long";
+      return @"длинная";
   }
   
   NSAssert(false, @"Incorrect dog coat type: %lu", (unsigned long)type);

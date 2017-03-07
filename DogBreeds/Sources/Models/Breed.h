@@ -19,6 +19,11 @@
 @property (nonatomic, assign) DogCoatType coatType;
 
 @property (nonatomic, strong) UIImage* image;
-@property (nonatomic, copy) NSString* dogDescription;
+
++ (Breed*)newWithName:(NSString*)name
+                 year:(NSUInteger)year
+              country:(NSString*)country
+             coatType:(DogCoatType)coatType
+                image:(UIImage*)image;
 
 @end

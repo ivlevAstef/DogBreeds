@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11025D091E6F070D000674AA /* BreedsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 11025D081E6F070D000674AA /* BreedsService.m */; };
 		1147C1821E6C5FCF00C11339 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1147C1751E6C5FCF00C11339 /* main.m */; };
 		1147C1841E6C5FCF00C11339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1147C1781E6C5FCF00C11339 /* Assets.xcassets */; };
 		1147C1851E6C5FCF00C11339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1147C1791E6C5FCF00C11339 /* Main.storyboard */; };
@@ -20,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11025D071E6F070D000674AA /* BreedsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreedsService.h; sourceTree = "<group>"; };
+		11025D081E6F070D000674AA /* BreedsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreedsService.m; sourceTree = "<group>"; };
+		11025D0A1E6F071E000674AA /* BreedsServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreedsServiceProtocol.h; sourceTree = "<group>"; };
 		1147C15A1E6C5F8D00C11339 /* DogBreeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogBreeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1147C1751E6C5FCF00C11339 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1147C1761E6C5FCF00C11339 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +56,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11025D061E6F06E8000674AA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				11025D071E6F070D000674AA /* BreedsService.h */,
+				11025D081E6F070D000674AA /* BreedsService.m */,
+				11025D0A1E6F071E000674AA /* BreedsServiceProtocol.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		1147C1511E6C5F8C00C11339 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +106,7 @@
 		1147C17D1E6C5FCF00C11339 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				11025D061E6F06E8000674AA /* Services */,
 				119538CB1E6C6F1A009B23FC /* Utils */,
 				119538C61E6C6BA7009B23FC /* Models */,
 				119538BC1E6C6A12009B23FC /* Views */,
@@ -204,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11025D091E6F070D000674AA /* BreedsService.m in Sources */,
 				119538C91E6C6BC6009B23FC /* Breed.m in Sources */,
 				119538BF1E6C6A13009B23FC /* BreedsTableViewController.m in Sources */,
 				1147C1871E6C5FCF00C11339 /* AppDelegate.m in Sources */,

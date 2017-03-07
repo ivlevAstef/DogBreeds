@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BreedsServiceProtocol.h"
 
 @interface BreedsTableViewController : UITableViewController
-
 
 @end
 

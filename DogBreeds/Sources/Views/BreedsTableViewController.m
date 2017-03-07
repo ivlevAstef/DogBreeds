@@ -7,23 +7,43 @@
 //
 
 #import "BreedsTableViewController.h"
+#import "BreedViewCell.h"
+
+#import "BreedsService.h"
 
 @interface BreedsTableViewController ()
+
+@property (nonatomic, strong) id<BreedsServiceProtocol> service;
+@property (nonatomic, strong) NSArray<Breed*>* breeds;
 
 @end
 
 @implementation BreedsTableViewController
 
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+  if (self = [super initWithCoder: aDecoder]) {
+    self.service = [BreedsService new];
+  }
+  return self;
+}
+
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
+  
+  self.breeds = [self.service listOfBreeds];
+  [self.tableView reloadData];
 }
 
-
-- (void)didReceiveMemoryWarning {
-  [super didReceiveMemoryWarning];
-  // Dispose of any resources that can be recreated.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+  return self.breeds.count;
 }
 
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+  BreedViewCell* cell = [self.tableView dequeueReusableCellWithIdentifier:@"BreedViewCell"];
+  
+  [cell setup:self.breeds[indexPath.row]];
+  
+  return cell;
+}
 
 @end

@@ -10,4 +10,19 @@
 
 @implementation Breed
 
++ (Breed*)newWithName:(NSString*)name
+                 year:(NSUInteger)year
+              country:(NSString*)country
+             coatType:(DogCoatType)coatType
+                image:(UIImage*)image {
+  Breed* breed = [Breed new];
+  [breed setName:name];
+  [breed setYear:year];
+  [breed setCountry:country];
+  [breed setCoatType:coatType];
+  [breed setImage:image];
+  
+  return breed;
+}
+
 @end

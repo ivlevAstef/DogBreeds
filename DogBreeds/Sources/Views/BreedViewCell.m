@@ -32,7 +32,7 @@
   [self.countryLbl setText: breed.country];
   
   NSString* coatType = [DogCoatTypeConverter toString: breed.coatType];
-  [self.coatTypeLbl setText: coatType];
+  [self.coatTypeLbl setText: [@"Шерстный покров: " stringByAppendingString: coatType]];
 }
 
 @end
