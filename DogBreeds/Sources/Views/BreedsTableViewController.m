@@ -8,6 +8,7 @@
 
 #import "BreedsTableViewController.h"
 #import "BreedViewCell.h"
+#import "BreedViewController.h"
 
 #import "BreedsService.h"
 
@@ -32,6 +33,8 @@
   
   self.breeds = [self.service listOfBreeds];
   [self.tableView reloadData];
+  
+  self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"background"]];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -44,6 +47,13 @@
   [cell setup:self.breeds[indexPath.row]];
   
   return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+  BreedViewController* breedVC = [self.storyboard instantiateViewControllerWithIdentifier:@"Breed"];
+  breedVC.breed = self.breeds[indexPath.row];
+  
+  [[self navigationController] pushViewController:breedVC animated:TRUE];
 }
 
 @end

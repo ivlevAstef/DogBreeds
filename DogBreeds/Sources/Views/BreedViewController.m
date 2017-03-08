@@ -24,8 +24,9 @@
 @implementation BreedViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+  [super viewDidLoad];
+  
+  self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"background"]];
 }
 
 

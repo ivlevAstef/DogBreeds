@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Breed.h"
 
 @interface BreedViewController : UIViewController
+
+@property (nonatomic, strong) Breed* breed;
 
 @end
