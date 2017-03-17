@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		113FFE8D1E7C661900C72F1B /* CollageCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 113FFE8C1E7C661900C72F1B /* CollageCellCollectionViewCell.m */; };
 		115BE79D1E784EF6003AE71F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 115BE79C1E784EF6003AE71F /* main.m */; };
 		11CD8A691E78521600B3CAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CD8A5E1E78521600B3CAE9 /* Assets.xcassets */; };
 		11CD8A6A1E78521600B3CAE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CD8A5F1E78521600B3CAE9 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		113FFE8B1E7C661900C72F1B /* CollageCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollageCellCollectionViewCell.h; sourceTree = "<group>"; };
+		113FFE8C1E7C661900C72F1B /* CollageCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollageCellCollectionViewCell.m; sourceTree = "<group>"; };
 		115BE7981E784EF6003AE71F /* PhotoRedactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoRedactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		115BE79C1E784EF6003AE71F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		115BE7AC1E784EF7003AE71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				11CD8A6F1E78572900B3CAE9 /* CollageViewController.m */,
 				11CD8A711E78612000B3CAE9 /* LoginCollageTransitionAnimation.h */,
 				11CD8A721E78612000B3CAE9 /* LoginCollageTransitionAnimation.m */,
+				113FFE8B1E7C661900C72F1B /* CollageCellCollectionViewCell.h */,
+				113FFE8C1E7C661900C72F1B /* CollageCellCollectionViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 				11CD8A701E78572900B3CAE9 /* CollageViewController.m in Sources */,
 				11CD8A6C1E78521600B3CAE9 /* LoginViewController.m in Sources */,
 				115BE79D1E784EF6003AE71F /* main.m in Sources */,
+				113FFE8D1E7C661900C72F1B /* CollageCellCollectionViewCell.m in Sources */,
 				11CD8A6D1E78521600B3CAE9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -287,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -299,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoRedactor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sia.PhotoRedactor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -311,6 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoRedactor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sia.PhotoRedactor;
 				PRODUCT_NAME = "$(TARGET_NAME)";

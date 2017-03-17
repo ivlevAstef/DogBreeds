@@ -32,5 +32,7 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>Хотите предоставить доступ</string>
 </dict>
 </plist>

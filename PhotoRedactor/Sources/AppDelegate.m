@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Photos/Photos.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   
+  [PHPhotoLibrary requestAuthorization: ^(PHAuthorizationStatus status) {
+    
+  }];
   // Override point for customization after application launch.
   return YES;
 }

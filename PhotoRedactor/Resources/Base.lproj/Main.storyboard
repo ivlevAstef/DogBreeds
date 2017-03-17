@@ -105,15 +105,29 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="RNN-An-WHl">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="RNN-An-WHl" customClass="CollageCellCollectionViewCell">
                                         <rect key="frame" x="64" y="0.0" width="176" height="176"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="176" height="176"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xcS-ES-K8W">
+                                                    <rect key="frame" x="2" y="2" width="172" height="172"/>
+                                                </imageView>
+                                            </subviews>
                                         </view>
                                         <color key="backgroundColor" red="0.95923501253128052" green="0.63698899745941162" blue="0.32450491189956665" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="xcS-ES-K8W" secondAttribute="trailing" constant="2" id="62J-Xq-k8G"/>
+                                            <constraint firstItem="xcS-ES-K8W" firstAttribute="leading" secondItem="RNN-An-WHl" secondAttribute="leading" constant="2" id="lTY-Fo-But"/>
+                                            <constraint firstItem="xcS-ES-K8W" firstAttribute="top" secondItem="RNN-An-WHl" secondAttribute="top" constant="2" id="uQt-eg-8fR"/>
+                                            <constraint firstAttribute="bottom" secondItem="xcS-ES-K8W" secondAttribute="bottom" constant="2" id="xLF-81-mmh"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imgView" destination="xcS-ES-K8W" id="E7V-5E-IOF"/>
+                                        </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Ziw-Jv-Tvi">
                                         <rect key="frame" x="64" y="184" width="176" height="176"/>
