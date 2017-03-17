@@ -10,4 +10,7 @@
 
 @interface CollageViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *nickLbl;
+@property (strong, nonatomic) IBOutlet UIView *nickBackground;
+
 @end

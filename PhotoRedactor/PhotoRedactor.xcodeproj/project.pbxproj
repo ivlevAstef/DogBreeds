@@ -14,6 +14,7 @@
 		11CD8A6C1E78521600B3CAE9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD8A661E78521600B3CAE9 /* LoginViewController.m */; };
 		11CD8A6D1E78521600B3CAE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD8A681E78521600B3CAE9 /* AppDelegate.m */; };
 		11CD8A701E78572900B3CAE9 /* CollageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD8A6F1E78572900B3CAE9 /* CollageViewController.m */; };
+		11CD8A731E78612000B3CAE9 /* LoginCollageTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD8A721E78612000B3CAE9 /* LoginCollageTransitionAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		11CD8A681E78521600B3CAE9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		11CD8A6E1E78572900B3CAE9 /* CollageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollageViewController.h; sourceTree = "<group>"; };
 		11CD8A6F1E78572900B3CAE9 /* CollageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollageViewController.m; sourceTree = "<group>"; };
+		11CD8A711E78612000B3CAE9 /* LoginCollageTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginCollageTransitionAnimation.h; sourceTree = "<group>"; };
+		11CD8A721E78612000B3CAE9 /* LoginCollageTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCollageTransitionAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				11CD8A661E78521600B3CAE9 /* LoginViewController.m */,
 				11CD8A6E1E78572900B3CAE9 /* CollageViewController.h */,
 				11CD8A6F1E78572900B3CAE9 /* CollageViewController.m */,
+				11CD8A711E78612000B3CAE9 /* LoginCollageTransitionAnimation.h */,
+				11CD8A721E78612000B3CAE9 /* LoginCollageTransitionAnimation.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11CD8A731E78612000B3CAE9 /* LoginCollageTransitionAnimation.m in Sources */,
 				11CD8A701E78572900B3CAE9 /* CollageViewController.m in Sources */,
 				11CD8A6C1E78521600B3CAE9 /* LoginViewController.m in Sources */,
 				115BE79D1E784EF6003AE71F /* main.m in Sources */,

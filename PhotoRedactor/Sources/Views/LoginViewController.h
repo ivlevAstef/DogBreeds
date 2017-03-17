@@ -10,6 +10,8 @@
 
 @interface LoginViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *nickTxf;
+@property (strong, nonatomic) IBOutlet UIButton *goBtn;
 
 @end
 

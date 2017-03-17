@@ -9,7 +9,6 @@
 #import "CollageViewController.h"
 
 @interface CollageViewController ()
-@property (strong, nonatomic) IBOutlet UILabel *nickLbl;
 
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 
